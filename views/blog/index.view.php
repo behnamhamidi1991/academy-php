@@ -1,51 +1,6 @@
 <?= loadPartial('head') ?>
 <?= loadPartial('navbar') ?>
 
-    <!-- HOME TOP -->
-    <section id="home-top">
-        <div class="home-top-content">
-            <h1>DevAcademy</h1>
-            <p>One place you can find all about web and app development ...</p>
-            <div class="home-top-btns">
-                <button>Read More</button>
-                <button>Support</button>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section id="notes">
-        <div class="note-box">
-            <i class='bx bx-code-alt'></i>
-            <h4>Our Courses</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum ab incidunt, porro repellat
-                voluptas a reiciendis consequuntur quidem dicta?</p>
-        </div>
-
-        <div class="note-box">
-            <i class='bx bxs-wallet-alt'></i>
-            <h4>Secure Payment</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum ab incidunt, porro repellat
-                voluptas a reiciendis consequuntur quidem dicta?</p>
-        </div>
-
-        <div class="note-box">
-            <i class='bx bxl-visual-studio'></i>
-            <h4>Free Applications</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum ab incidunt, porro repellat
-            voluptas a reiciendis consequuntur quidem dicta?</p>
-        </div>
-
-        <div class="note-box">
-            <i class='bx bxs-graduation'></i>
-            <h4>Valid Degree</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum ab incidunt, porro repellat
-            voluptas a reiciendis consequuntur quidem dicta?</p>
-        </div>
-    </section>
-
-
     <section id="blog">
         <div class="blog-content">
             <div class="blog-box">
@@ -126,7 +81,6 @@
                 <a href="#" class="blog-readmore-btn">Read More</a>
             </div>
         </div>
-        <a href="/blog" class="blog-page-btn">Read More Posts</a>
     </section>
 
 

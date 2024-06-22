@@ -1,6 +1,6 @@
 <header id="header" class="header">
         <div class="logoContainer">
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <i class='bx bx-code'></i>
                 <span>DevAcademy</span>
             </a>

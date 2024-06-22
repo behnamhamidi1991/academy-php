@@ -1,3 +1,3 @@
 <?php 
 
-echo "Blog";
+loadView('blog/index');
