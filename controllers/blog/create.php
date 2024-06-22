@@ -1,3 +1,3 @@
 <?php 
 
-echo "Create Blog Posts";
+loadView('blog/create');
