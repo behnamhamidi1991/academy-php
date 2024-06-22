@@ -1,11 +1,6 @@
 <?php loadPartial('head') ?>
 <?php loadPartial('navbar') ?>
 
-    <!-- HEADER -->
-    
-
-
-
     <!-- HOME TOP -->
     <section id="home-top">
         <div class="home-top-content">
