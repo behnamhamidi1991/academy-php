@@ -1,6 +1,6 @@
 <header id="header" class="header">
         <div class="logoContainer">
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <i class='bx bx-code'></i>
                 <span>DevAcademy</span>
             </a>
@@ -9,10 +9,10 @@
         <div class="nav-links">
             <ul class="navigation-box">
                 <li class="nav-item">
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Blog</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a href="#">Courses</a>
@@ -27,13 +27,13 @@
         </div>
 
         <div class="header-buttons">
-            <div class="user-buttons">
+            <!-- <div class="user-buttons">
                 <a href="#" class="loginBtn">Login</a>
                 <a href="#" class="registerBtn">Register</a>
-            </div>
-            <!-- <div class="blog-button">
-                <a href="#" class="createPost">Create Post</a>
-                <a href="#" class="logoutBtn">Logout</a>
             </div> -->
+            <div class="blog-button">
+                <a href="/blog/create" class="createPost">Create Post</a>
+                <a href="/" class="logoutBtn">Logout</a>
+            </div>
         </div>
     </header>
