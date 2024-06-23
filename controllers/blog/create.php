@@ -1,4 +1,4 @@
 <?php 
 
 
-echo "Welcome to create post page";
+loadView('blog/create');
