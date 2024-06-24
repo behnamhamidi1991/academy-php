@@ -1,5 +1,5 @@
-<?php loadPartial('head') ?>
-<?php loadPartial('navbar') ?>
+<?= loadPartial('head') ?>
+<?= loadPartial('navbar') ?>
 
     <!-- HOME TOP -->
     <section id="home-top">
@@ -62,7 +62,7 @@
             </div>
 
             <div class="blog-box">
-                <h2>PHP new features</h2>
+                <h2>= new features</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis modi, nostrum
                     asperiores itaque voluptates nisi omnis magnam sunt excepturi ratione dolorum commodi ut accusamus
                     tenetur enim, obcaecati, autem ipsum?</p>
@@ -129,6 +129,7 @@
 
             <a href="/blog" class="readMorePosts">Read More Posts</a>
         </div>
+        <a href="/blog" class="blog-page-btn">Read More Posts</a>
     </section>
 
 
@@ -146,4 +147,4 @@
 
 
 
-<?php loadPartial('footer') ?>
+<?= loadPartial('footer') ?>

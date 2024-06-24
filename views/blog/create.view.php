@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php loadPartial('head') ?>
 <?php loadPartial('navbar') ?>
 
@@ -29,3 +30,19 @@
 
 
 <?php loadPartial('footer') ?>
+=======
+<?= loadPartial('head') ?>
+<?= loadPartial('navbar') ?>
+
+<section id="form-container">
+      <!-- FORM -->
+      <form class="createForm">
+        <input type="text" placeholder="Title ..." />
+        <input type="Category" placeholder="Category ..." />
+        <textarea placeholder="Post content ..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <?= loadPartial('footer') ?>
+>>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494

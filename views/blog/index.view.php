@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 <?php loadPartial('head') ?>
 <?php loadPartial('navbar') ?>
 
+=======
+<?= loadPartial('head') ?>
+<?= loadPartial('navbar') ?>
+>>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494
 
     <section id="blog">
         <div class="blog-content">
@@ -18,7 +23,11 @@
             </div>
 
             <div class="blog-box">
+<<<<<<< HEAD
                 <h2>PHP new features</h2>
+=======
+                <h2>= new features</h2>
+>>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis modi, nostrum
                     asperiores itaque voluptates nisi omnis magnam sunt excepturi ratione dolorum commodi ut accusamus
                     tenetur enim, obcaecati, autem ipsum?</p>
@@ -99,4 +108,8 @@
 
 
 
+<<<<<<< HEAD
 <?php loadPartial('footer') ?>
+=======
+<?= loadPartial('footer') ?>
+>>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494
