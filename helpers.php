@@ -38,6 +38,6 @@ function loadPartials($name) {
     if (file_exists($viewPartial)) {
         require $viewPartial;
     } else {
-        echo "There is no partial with the name of {$partial}";
+        echo "There is no partial with the name of {$name}";
     }
 }

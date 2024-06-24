@@ -1,6 +1,6 @@
-<?php require basePath('views/partials/head.php'); ?>
-<?php require basePath('views/partials/navbar.php'); ?>
-<?php require basePath('views/partials/top.home.php'); ?>
+<?php loadPartials('head'); ?>
+<?php loadPartials('navbar'); ?>
+<?php loadPartials('tophome'); ?>
 
 
 <section id="notes">
@@ -203,4 +203,4 @@
     </section>
 
 
-    <?php require basePath('views/partials/footer.php'); ?>
+    <?php loadPartials('footer'); ?>
