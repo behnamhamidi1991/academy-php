@@ -366,7 +366,6 @@ h6 {
   line-height: 1.7;
 }
 
-<<<<<<< HEAD
 .readMorePosts {
     color: #fff;
     background-color: var(--darker-color);
@@ -409,7 +408,6 @@ h6 {
 }
 
 
-=======
 .blog-page-btn {
   margin-top: 120px;
   padding: 6px 10px;
@@ -460,7 +458,6 @@ h6 {
   font-weight: 700;
   cursor: pointer;
 }
->>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494
 
 @media screen and (max-width: 1262px) {
   #notes {

@@ -33,11 +33,7 @@
             </div> -->
             <div class="blog-button">
                 <a href="/blog/create" class="createPost">Create Post</a>
-<<<<<<< HEAD
                 <a href="/" class="logoutBtn">Logout</a>
-=======
-                <a href="#" class="logoutBtn">Logout</a>
->>>>>>> c9b4d6ccceb0207ea455c750a938fe0710d06494
             </div>
         </div>
     </header>
