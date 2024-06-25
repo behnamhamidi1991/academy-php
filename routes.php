@@ -1,13 +1,9 @@
 <?php 
 
 
-return [
-    '/' => 'controllers/home.php',
-    '/blog' => 'controllers/blog/index.php',
-    '/blog/create' => 'controllers/blog/create.php',
-    '/courses' => 'controllers/courses/index.php',
-    '/courses/create' => 'controllers/courses/create.php',
-    '404' => 'controllers/errors/404.php'
-];
 
-
+$router->get('/', 'controllers/home.php');
+$router->get('/blog', 'controllers/blog/index.php');
+$router->get('/blog/create', 'controllers/blog/create.php');
+$router->get('/courses', 'controllers/courses/index.php');
+$router->get('/courses/create', 'controllers/courses/create.php');
