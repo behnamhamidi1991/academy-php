@@ -19,10 +19,10 @@
                     <a href="/courses">Courses</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
