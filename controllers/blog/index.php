@@ -1,4 +1,4 @@
 <?php 
 
 
-echo "Blog Page";
+loadView('/blog/home');
