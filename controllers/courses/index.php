@@ -1,3 +1,3 @@
 <?php
 
-echo "Courses Page";
+loadView('/courses/home');

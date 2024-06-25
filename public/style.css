@@ -473,6 +473,29 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+.courses-btn-container {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.courses-btn-container a {
+    padding: 4px 6px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.courses-btn-container a:first-child {
+    background-color: var(--darker-color);
+}
+
+.courses-btn-container a:last-child {
+    background-color: var(--dark-color);
+}
+
 
 @media screen and (max-width: 1130px) {
     #notes .notes-wrapper {

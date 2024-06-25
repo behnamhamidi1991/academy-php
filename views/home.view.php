@@ -106,7 +106,10 @@
                         <a href="#" class="buyBtn">View Course & Buy</a>
                     </div>
                 </div>
-            
+            <div class="courses-btn-container">
+                <a href="/courses">See All Our Courses</a>
+                <a href="/courses/create">Create A New Course</a>
+            </div>
         </div>
             
 
