@@ -65,6 +65,18 @@ public function delete($uri, $controller) {
     $this->registerRoute('DELETE', $uri, $controller);
 }
 
+/**
+ * Load error page
+ * 
+ * @param int $httpCode
+ * @return void
+ */
+public function error($httpCode = 404) {
+    http_response_code($httpCode);
+    loadView("errors/{$httpCode}");
+    exit;
+}
+
 
 /**
  * Route the request
@@ -81,9 +93,7 @@ public function route($uri, $method) {
         }
     } 
 
-    http_response_code(404);
-    loadView('error/404');
-    exit;
+    $this->error();
 }
 
 }
