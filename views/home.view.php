@@ -106,11 +106,11 @@
                         <a href="#" class="buyBtn">View Course & Buy</a>
                     </div>
                 </div>
+            </div>
             <div class="courses-btn-container">
                 <a href="/courses">See All Our Courses</a>
                 <a href="/courses/create">Create A New Course</a>
             </div>
-        </div>
             
 
     </section>
@@ -200,8 +200,7 @@
                 </div>
                 <a href="#" class="blog-readmore-btn">Read More</a>
             </div>
-
-            <a href="#" class="blog-read-more">Read More Posts</a>
+            <a href="/blog" class="blog-read-more">Read More Posts</a>
         </div>
     </section>
 

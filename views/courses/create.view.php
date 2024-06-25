@@ -1,6 +1,6 @@
-<?php loadPartials('head'); ?>
-<?php loadPartials('navbar'); ?>
-<?php loadPartials('topothers'); ?>
+<?= loadPartials('head'); ?>
+<?= loadPartials('navbar'); ?>
+<?= loadPartials('topothers'); ?>
 
 
  
@@ -19,4 +19,4 @@
 
 
 
-     <?php loadPartials('footer'); ?>
+     <?= loadPartials('footer'); ?>
