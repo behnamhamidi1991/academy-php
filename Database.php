@@ -21,6 +21,7 @@ class Database {
             echo "Connected!";
         } catch (PDOException $e) {
             throw new Exception("Database connection failed: {$e->getMessage()}");
+            exit;
         }
     }
 }
