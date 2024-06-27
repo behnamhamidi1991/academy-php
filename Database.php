@@ -1,7 +1,7 @@
 <?php 
 
 class Database {
-    public $connection;
+    public $conn;
 
     /**
      * Constructor for Database class
@@ -17,11 +17,10 @@ class Database {
         ];
 
         try {
-            $this->connection = new PDO($dsn, $config['username'], $config['password']);
-            echo "Connected!";
+            $this->conn = new PDO($dsn, $config['username'], $config['password']);
         } catch (PDOException $e) {
             throw new Exception("Database connection failed: {$e->getMessage()}");
-            exit;
         }
     }
+
 }
