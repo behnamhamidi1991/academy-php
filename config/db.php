@@ -5,5 +5,5 @@ return [
     'port' => '3306',
     'dbname' => 'academy',
     'username' => 'behnam',
-    'password' => 'Newproject2024@'
+    'password' => '123456'
 ];
